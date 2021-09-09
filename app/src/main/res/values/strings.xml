@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pdf Sample</string>
+    <string name="app_name">Sample</string>
     <string name="top_one_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
     <string name="sec_txt">me as a collector</string>
     <string name="reg_txt">register</string>
