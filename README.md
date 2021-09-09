@@ -11,4 +11,4 @@ and developed screen based on following screen size 8.0 Foldable 420 dpi.
 
 
 
-<a href="https://github.com/PrabhuSoftDev/BinaryvedaAssignment/blob/master/Task2/InspectorMatch%20System.pdf" class="image fit" >
+https://github.com/PrabhuSoftDev/BinaryvedaAssignment/blob/master/Task2/Inspector_Match_System.pdf
