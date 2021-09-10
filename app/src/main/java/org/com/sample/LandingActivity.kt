@@ -28,13 +28,8 @@ class LandingActivity : AppCompatActivity() {
             }
             for (items in listOfMock){
                 val inflater = LayoutInflater.from(this)
-                val view=inflater.inflate(R.layout.service_layout, null, false)
+                val view=inflater.inflate(R.layout.our_service_layout, null, false)
                 val headImg=view.findViewById(R.id.head_img) as AppCompatImageView
-                if (listOfMock.get(listOfMock.size-1)==items)
-                {
-                    headImg.maxWidth=60
-                    headImg.maxHeight=50
-                }
                 headImg.setBackgroundResource(items)
                 serviceView.addView(view) //android kotlin extension synthetic binding
             }

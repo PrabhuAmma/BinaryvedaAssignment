@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".DashboardActivity">
     <ScrollView
-        android:layout_width="375pt"
+        android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
@@ -13,22 +13,22 @@
             android:orientation="vertical">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="33pt"
-                android:layout_marginTop="27pt"
+                android:layout_height="23pt"
+                android:layout_marginTop="10pt"
                 android:orientation="horizontal">
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="65pt"
                     android:layout_height="20pt"
-                    android:layout_marginLeft="24pt"
-                    android:layout_marginStart="24pt"
+                    android:layout_marginLeft="4pt"
+                    android:layout_marginStart="4pt"
                     android:src="@drawable/ic_dashboard_head"/>
                 <RelativeLayout
-                    android:layout_width="23pt"
-                    android:layout_height="23pt"
+                    android:layout_width="18pt"
+                    android:layout_height="18pt"
                     android:layout_toLeftOf="@+id/more"
                     android:layout_toStartOf="@+id/more"
-                    android:layout_marginRight="35pt"
-                    android:layout_marginEnd="35pt"
+                    android:layout_marginRight="15pt"
+                    android:layout_marginEnd="15pt"
                     android:background="@drawable/round_profile_bg">
                  <androidx.appcompat.widget.AppCompatImageView
                      android:layout_width="10pt"
@@ -38,29 +38,29 @@
                 </RelativeLayout>
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/more"
-                    android:layout_width="14pt"
-                    android:layout_height="14pt"
+                    android:layout_width="10pt"
+                    android:layout_height="10pt"
                     android:background="@drawable/ic_more"
                     android:layout_toLeftOf="@+id/menu"
                     android:layout_toStartOf="@+id/menu"
                     android:layout_marginTop="4pt"
-                    android:layout_marginRight="33pt"
-                    android:layout_marginEnd="33pt" />
+                    android:layout_marginRight="10pt"
+                    android:layout_marginEnd="10pt" />
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/menu"
-                    android:layout_width="15pt"
-                    android:layout_height="12pt"
+                    android:layout_width="12pt"
+                    android:layout_height="10pt"
                     android:background="@drawable/ic_menu"
                     android:layout_marginTop="3pt"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginRight="33pt"
-                    android:layout_marginEnd="33pt" />
+                    android:layout_marginRight="5pt"
+                    android:layout_marginEnd="5pt" />
             </RelativeLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="33pt"
+                android:layout_marginTop="5pt"
                 android:weightSum="2"
                 android:orientation="horizontal">
                <RelativeLayout
@@ -69,18 +69,18 @@
                    android:layout_weight="0.6">
                    <androidx.appcompat.widget.AppCompatImageView
                        android:id="@+id/upload"
-                       android:layout_width="28pt"
-                       android:layout_height="33pt"
-                       android:layout_marginLeft="34pt"
-                       android:layout_marginStart="34pt"
+                       android:layout_width="18pt"
+                       android:layout_height="23pt"
+                       android:layout_marginLeft="24pt"
+                       android:layout_marginStart="24pt"
                        android:layout_centerInParent="true"
                        android:src="@drawable/ic_upload" />
                    <androidx.appcompat.widget.AppCompatTextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
                        android:layout_centerInParent="true"
-                       android:layout_marginTop="10pt"
-                       android:textSize="12pt"
+                       android:layout_marginTop="3pt"
+                       android:textSize="8pt"
                        android:textColor="@color/upload_clr"
                        android:text="@string/upload_txt"
                        android:fontFamily="@font/bebas_neue_font_family"
@@ -92,8 +92,8 @@
                     android:layout_weight="0.8"
                     android:orientation="vertical">
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="107pt"
-                        android:layout_height="107pt"
+                        android:layout_width="57pt"
+                        android:layout_height="57pt"
                         android:layout_centerInParent="true"
                         android:src="@drawable/profile_icon"/>
                 </RelativeLayout>
@@ -103,20 +103,20 @@
                     android:layout_weight="0.6">
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/edit"
-                        android:layout_width="28pt"
-                        android:layout_height="33pt"
-                        android:layout_marginLeft="34pt"
-                        android:layout_marginStart="34pt"
+                        android:layout_width="18pt"
+                        android:layout_height="23pt"
+                        android:layout_marginLeft="24pt"
+                        android:layout_marginStart="24pt"
                         android:layout_centerInParent="true"
                         android:src="@drawable/ic_edit" />
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:layout_marginTop="10pt"
+                        android:layout_marginTop="3pt"
+                        android:textSize="8pt"
                         android:textColor="@color/upload_clr"
                         android:text="@string/edit_txt"
-                        android:textSize="12pt"
                         android:fontFamily="@font/bebas_neue_font_family"
                         android:layout_below="@+id/edit"/>
                 </RelativeLayout>
@@ -135,15 +135,15 @@
                     android:layout_centerInParent="true"
                     android:textColor="@color/black"
                     android:text="@string/name_txt"
-                    android:textSize="25pt"
+                    android:textSize="15pt"
                     android:fontFamily="@font/bebas_neue_font_bold_family" />
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="24pt"
-                android:layout_marginTop="25pt">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10pt">
                <RelativeLayout
-                   android:layout_width="134pt"
+                   android:layout_width="wrap_content"
                    android:layout_height="match_parent"
                    android:layout_marginLeft="10pt"
                    android:layout_marginStart="10pt">
@@ -152,39 +152,39 @@
                        android:layout_height="wrap_content"
                        android:layout_centerInParent="true"
                        android:text="@string/dashboard_txt"
-                       android:textSize="14pt"
+                       android:textSize="10pt"
                        android:fontFamily="@font/bebas_neue_font_medium" />
                </RelativeLayout>
                 <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/switchCon"
-                    android:layout_width="46pt"
-                    android:layout_height="17pt"
+                    android:layout_width="26pt"
+                    android:layout_height="12pt"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginRight="30pt"
-                    android:layout_marginEnd="30pt"
+                    android:layout_marginRight="10pt"
+                    android:layout_marginEnd="10pt"
                     android:theme="@style/SCBSwitch"/>
             </RelativeLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
-                android:layout_marginTop="12pt"
-                android:layout_marginLeft="20pt"
-                android:layout_marginStart="20pt"
-                android:layout_marginRight="23pt"
-                android:layout_marginEnd="23pt"
+                android:layout_marginTop="8pt"
+                android:layout_marginLeft="10pt"
+                android:layout_marginStart="10pt"
+                android:layout_marginRight="10pt"
+                android:layout_marginEnd="10pt"
                 android:background="@color/border_wht"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="69pt"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="3">
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_marginLeft="20pt"
-                    android:layout_marginStart="20pt"
+                    android:layout_marginLeft="10pt"
+                    android:layout_marginStart="10pt"
                     android:orientation="vertical">
                   <androidx.appcompat.widget.AppCompatTextView
                       android:id="@+id/top1"
@@ -192,82 +192,82 @@
                       android:layout_height="wrap_content"
                       android:layout_alignParentTop="true"
                       android:layout_centerInParent="true"
-                      android:layout_marginTop="9pt"
-                      android:textSize="24pt"
+                      android:layout_marginTop="4pt"
+                      android:textSize="14pt"
                       android:text="@string/_2_3k"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_below="@+id/top1"
-                        android:textSize="14pt"
+                        android:textSize="10pt"
                         android:text="@string/followers"/>
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_marginLeft="20pt"
-                    android:layout_marginStart="20pt">
+                    android:layout_marginLeft="10pt"
+                    android:layout_marginStart="10pt">
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/top2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_centerInParent="true"
-                        android:layout_marginTop="9pt"
-                        android:textSize="24pt"
+                        android:layout_marginTop="4pt"
+                        android:textSize="14pt"
                         android:text="@string/_50"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_below="@+id/top2"
-                        android:textSize="14pt"
+                        android:textSize="10pt"
                         android:text="@string/artworks"/>
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_marginLeft="20pt"
-                    android:layout_marginStart="20pt">
+                    android:layout_marginLeft="5pt"
+                    android:layout_marginStart="5pt">
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/top3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_centerInParent="true"
-                        android:layout_marginTop="9pt"
-                        android:textSize="24pt"
+                        android:layout_marginTop="4pt"
+                        android:textSize="14pt"
                         android:text="@string/_21"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_below="@+id/top3"
-                        android:textSize="14pt"
+                        android:textSize="10pt"
                         android:text="@string/exhibitions"/>
                 </RelativeLayout>
             </LinearLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
-                android:layout_marginTop="9pt"
-                android:layout_marginLeft="20pt"
-                android:layout_marginStart="20pt"
-                android:layout_marginRight="23pt"
-                android:layout_marginEnd="23pt"
+                android:layout_marginTop="4pt"
+                android:layout_marginLeft="10pt"
+                android:layout_marginStart="10pt"
+                android:layout_marginRight="10pt"
+                android:layout_marginEnd="10pt"
                 android:background="@color/border_wht"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="6pt"
-                android:layout_marginLeft="58pt"
-                android:layout_marginStart="58pt"
-                android:layout_marginRight="79pt"
-                android:layout_marginEnd="79pt"
+                android:layout_marginLeft="18pt"
+                android:layout_marginStart="18pt"
+                android:layout_marginRight="18pt"
+                android:layout_marginEnd="18pt"
                 android:weightSum="3">
                 <LinearLayout
                     android:layout_width="0dp"
@@ -275,14 +275,14 @@
                     android:orientation="horizontal"
                     android:layout_weight="1">
                   <androidx.appcompat.widget.AppCompatImageView
-                      android:layout_width="19pt"
-                      android:layout_height="16pt"
-                      android:layout_marginTop="6pt"
+                      android:layout_width="14pt"
+                      android:layout_height="14pt"
+                      android:layout_marginTop="2pt"
                       android:src="@drawable/ic_heart"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="18pt"
+                        android:textSize="11pt"
                         android:text="@string/_120" />
                 </LinearLayout>
                 <LinearLayout
@@ -291,14 +291,14 @@
                     android:orientation="horizontal"
                     android:layout_weight="1">
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="19pt"
-                        android:layout_height="16pt"
-                        android:layout_marginTop="6pt"
+                        android:layout_width="14pt"
+                        android:layout_height="14pt"
+                        android:layout_marginTop="2pt"
                         android:src="@drawable/ic_arrow"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="18pt"
+                        android:textSize="11pt"
                         android:text="@string/_43k" />
                 </LinearLayout>
                 <LinearLayout
@@ -307,25 +307,25 @@
                     android:orientation="horizontal"
                     android:layout_weight="1">
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="19pt"
-                        android:layout_height="16pt"
-                        android:layout_marginTop="6pt"
+                        android:layout_width="14pt"
+                        android:layout_height="14pt"
+                        android:layout_marginTop="2pt"
                         android:src="@drawable/ic_share"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="18pt"
+                        android:textSize="11pt"
                         android:text="@string/_2_3k" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="42pt"
+                android:layout_height="22pt"
                 android:layout_marginTop="6pt"
-                android:layout_marginLeft="17pt"
-                android:layout_marginStart="17pt"
-                android:layout_marginRight="17pt"
-                android:layout_marginEnd="17pt"
+                android:layout_marginLeft="10pt"
+                android:layout_marginStart="10pt"
+                android:layout_marginRight="10pt"
+                android:layout_marginEnd="10pt"
                 android:orientation="horizontal"
                 android:weightSum="5">
                 <RelativeLayout
@@ -337,7 +337,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/pallette"
-                        android:textSize="14pt"
+                        android:textSize="7pt"
                         android:textColor="@color/white"
                         android:fontFamily="@font/bebas_neue_font_medium"
                         android:layout_centerInParent="true"/>
@@ -365,24 +365,24 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="69pt"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="20pt"
+                android:layout_marginTop="10pt"
                 android:weightSum="3">
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:layout_marginLeft="20pt"
-                    android:layout_marginStart="20pt"
+                    android:layout_weight="0.8"
+                    android:layout_marginLeft="10pt"
+                    android:layout_marginStart="10pt"
                     android:orientation="vertical">
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/top4"
-                        android:layout_width="28pt"
-                        android:layout_height="33pt"
+                        android:layout_width="18pt"
+                        android:layout_height="23pt"
                         android:layout_alignParentTop="true"
                         android:layout_centerInParent="true"
-                        android:layout_marginTop="9pt"
+                        android:layout_marginTop="4pt"
                         android:src="@drawable/ic_uploads"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/top_txt"
@@ -390,7 +390,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_below="@+id/top4"
-                        android:textSize="14pt"
+                        android:textSize="11pt"
                         android:textColor="@color/black"
                         android:fontFamily="@font/bebas_neue_font_bold_family"
                         android:text="@string/upload_txt"/>
@@ -404,53 +404,53 @@
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:layout_marginLeft="20pt"
-                    android:layout_marginStart="20pt">
+                    android:layout_weight="1.2"
+                    android:layout_marginLeft="10pt"
+                    android:layout_marginStart="10pt">
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/top5"
-                        android:layout_width="28pt"
-                        android:layout_height="33pt"
+                        android:layout_width="18pt"
+                        android:layout_height="23pt"
                         android:layout_alignParentTop="true"
                         android:layout_centerInParent="true"
                         android:src="@drawable/ic_gallery"
-                        android:layout_marginTop="9pt"/>
+                        android:layout_marginTop="4pt"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_below="@+id/top5"
-                        android:textSize="14pt"
+                        android:textSize="11pt"
                         android:text="@string/exhibitions"/>
                 </RelativeLayout>
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_marginLeft="20pt"
-                    android:layout_marginStart="20pt">
+                    android:layout_marginLeft="10pt"
+                    android:layout_marginStart="10pt">
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/top6"
-                        android:layout_width="28pt"
-                        android:layout_height="33pt"
+                        android:layout_width="18pt"
+                        android:layout_height="23pt"
                         android:layout_alignParentTop="true"
                         android:layout_centerInParent="true"
                         android:src="@drawable/ic_coin"
-                        android:layout_marginTop="9pt"/>
+                        android:layout_marginTop="4pt"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_below="@+id/top6"
-                        android:textSize="14pt"
+                        android:textSize="11pt"
                         android:text="@string/revenue"/>
                 </RelativeLayout>
             </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150pt"
+            android:layout_height="150dp"
             android:orientation="horizontal"
-            android:layout_marginTop="21pt"
+            android:layout_marginTop="10pt"
             android:weightSum="2">
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="0dp"
@@ -460,16 +460,16 @@
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10pt"
-                android:layout_marginStart="10pt"
+                android:layout_marginLeft="4pt"
+                android:layout_marginStart="4pt"
                 android:layout_weight="1"
                 android:src="@drawable/images"/>
         </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150pt"
+                android:layout_height="150dp"
                 android:orientation="horizontal"
-                android:layout_marginTop="10pt"
+                android:layout_marginTop="2pt"
                 android:weightSum="2">
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="0dp"
@@ -479,16 +479,17 @@
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10pt"
-                    android:layout_marginStart="10pt"
+                    android:layout_marginLeft="4pt"
+                    android:layout_marginStart="4pt"
                     android:layout_weight="1"
                     android:src="@drawable/first"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150pt"
+                android:layout_height="150dp"
                 android:orientation="horizontal"
-                android:layout_marginTop="10pt"
+                android:layout_marginTop="2pt"
+                android:layout_marginBottom="20dp"
                 android:weightSum="2">
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="0dp"
@@ -498,8 +499,8 @@
                 <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10pt"
-                    android:layout_marginStart="10pt"
+                    android:layout_marginLeft="4pt"
+                    android:layout_marginStart="4pt"
                     android:layout_weight="1"
                     android:src="@drawable/images"/>
             </LinearLayout>

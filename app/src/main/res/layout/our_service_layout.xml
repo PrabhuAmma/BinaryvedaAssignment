@@ -2,29 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="5pt"
     android:orientation="vertical">
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="89pt"
-        android:layout_height="93pt"
-        android:layout_marginLeft="40pt"
-        android:layout_marginStart="40pt"
-        android:src="@drawable/ic_human_mock"/>
+        android:id="@+id/head_img"
+        android:layout_width="32pt"
+        android:layout_height="32pt"
+        android:layout_marginLeft="10pt"
+        android:layout_marginStart="10pt"/>
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="201pt"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="29pt"
-        android:layout_marginLeft="37pt"
-        android:layout_marginStart="37pt"
-        android:textSize="28pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginLeft="10pt"
+        android:layout_marginStart="10pt"
+        android:textSize="10pt"
         android:fontFamily="@font/bebas_neue_font_bold_family"
         android:text="@string/service_head_txt"/>
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="310pt"
-        android:layout_height="189pt"
-        android:layout_marginTop="29pt"
-        android:layout_marginLeft="37pt"
-        android:layout_marginStart="37pt"
-        android:textSize="16pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:layout_marginLeft="10pt"
+        android:layout_marginStart="10pt"
+        android:textSize="10pt"
         android:fontFamily="@font/bebas_neue_font_family"
         android:text="@string/service_txt"/>
 </LinearLayout>
